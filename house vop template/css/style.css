@@ -1,0 +1,167 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background: url(../img/HeaderImage.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* header start */
+
+.header {
+    background-color: #242B33;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    color: #fff;
+}
+
+.nav-item {
+    margin-left: 15px;
+}
+
+.nav-list li:hover {
+
+    color: #D4C17F;
+    
+}
+
+
+.nav-item:first-child {
+    margin-left: 0;
+}
+
+.hero__title {
+    color: #D4C17F;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 210px;
+    padding-bottom: 80px;
+}
+
+.hero-mouse {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 204px;
+}
+
+.hero-contacts {
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    padding-bottom: 150px;
+}
+
+/*search*/
+
+.search {
+    border-radius: 5px;
+    width: 100px;
+    background-color: rgb(24, 30, 39);
+    color: beige;
+    
+}
+
+.input img {
+    vertical-align: text-bottom;
+}
+
+/*sub-menu*/
+
+.item-link {
+    padding: 10px 0 0 0 ;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    display: none;
+}
+
+.item-link li {
+   color: #fff;
+}
+.nav-list li {
+    position: relative;
+    left: 0;
+    top: 0;
+    list-style: none;
+}
+
+.nav-list li:hover .item-link {
+    display: block;
+}
+
+/*left-bar*/
+
+
+.nav-bar {
+   margin-top: 40px;
+   margin-left: 20px;
+   padding-top: 20px;
+   width: 100px;
+   
+   
+}
+
+.left-list > li {
+    list-style: none;
+    padding: 10px;
+    color: #fff;
+    position: relative;
+    
+}
+
+.left-list > li:hover .sub-nav{
+    display: block;
+}
+
+.left-list li:hover {
+    color: #D4C17F;
+    cursor: pointer;
+    
+}
+
+/*sub-nav*/
+
+.sub-nav {
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    display: none;
+}
+
+.sub-nav li {
+    list-style: none;
+}
+
+.left-link li{
+    color: #fff;
+
+}
+/*inputbtn*/
+
+.inputbtn:hover {
+    cursor: pointer;
+}
+

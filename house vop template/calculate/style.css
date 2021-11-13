@@ -1,0 +1,67 @@
+body {
+  background-color: #6837a0;
+  user-select: none;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 4px;
+  background-color: #212121;
+  padding: 4px;
+  border-radius: 5px;
+  border: 5px solid rgb(43, 9, 43);
+  max-width: 360px;
+  font-family: "Tahoma";
+  margin: 0 auto;
+}
+.item {
+  background-color: #B3E5FC;
+  color: #000;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.item:hover {
+  background-color: purple;
+}
+form {
+  max-width: 99%;
+}
+input {
+  width: 100%;
+  height: 60px;
+  border: none;
+  font-size: 30px;
+  outline: none;
+  text-align: right;
+}
+.input {
+  grid-column: 1/-1;
+  padding: 0;
+}
+.clean {
+  grid-column: 1/3;
+  background-color: #d10902;
+}
+.back {
+  grid-column: 3/-1;
+}
+.equal {
+  grid-column: 4;
+  grid-row: 6/8;
+  background-color: #90d83e;
+}
+.zero {
+  grid-column: 1/3;
+}
+.plus {
+  background-color: rgb(228, 80, 22);
+}
+.minus {
+  background-color: teal;
+}
